@@ -11,20 +11,33 @@ App.js: The main entry point for the application, managing navigation and condit
 Screens:
 
 NowPlayingScreen.js: Displays a list of currently playing movies, fetched from The Movie Database API.
+
 MovieDetailsScreen.js: Displays details about a selected movie, including the ability to purchase tickets.
+
 BuyTicketsScreen.js: Enables the user to purchase tickets for a selected movie.
+
 MyPurchasesScreen.js: Displays a list of tickets purchased by the user.
+
 LoginScreen.js: Allows the user to login or create a new account.
+
 LogoutScreen.js: Enables the user to logout of the application.
 
+
 Navigation:
+
 The main screens are displayed using a Tab Bar Navigation component.
+
 Conditional rendering in App.js ensures the appropriate tabs are shown based on the user's login status.
+
 Stack Navigators connect screens for smooth navigation.
 
+
 Firebase:
+
 Firebase services are used for data persistence and authentication.
+
 Firebase Firestore is used for data persistence, managing purchases and user information.
+
 Firebase Auth with Email/Password Sign-In method is employed for user authentication.
 
 
